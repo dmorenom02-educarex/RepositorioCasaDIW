@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 10px;
+    background-color: #2c5530;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.titulo {
+    float: left; 
+}
+
+.url {
+    float: right;
+}
