@@ -6,23 +6,17 @@
         <title>Document</title>
     </head>
     <style>
-            *{
-                box-sizing: border-box;
-            }
-            
-            .clearfix::after {
-                content: "";
-                display: table;
-                clear: both;
+            .container-main {
+                display: flex;
             }
 
-            img{
-                float: left;
+            img {
+                align-self: flex-start;
             }
     </style>
     <body>
-        <div class="clearfix">
-            <img src="https://picsum.photos/id/684/600/400" alt="">
+        <div class="container-main">
+            <img src="https://picsum.photos/id/1080/600/400" alt="" width="50px">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel est sunt rem inventore accusantium voluptatibus mollitia quisquam corrupti dolor non, iusto eveniet ipsum sint! Quam saepe reiciendis doloremque obcaecati. Nesciunt.</p>
         </div>
     </body>

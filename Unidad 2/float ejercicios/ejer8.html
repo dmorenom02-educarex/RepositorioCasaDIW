@@ -5,62 +5,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-            * {
-                box-sizing: border-box;
-            }
-            
-            .clearfix::after {
-                content: "";
-                display: table;
-                clear: both;
+            .container-main {
+                display: flex;
+                flex-direction: column;
             }
 
-            footer {
-                background-color: gray;
-                padding: 10px;
-                display: block;
+            .container-principal {
+                display: flex;
+                flex-direction: column;
             }
 
-            .nombre{
-                float: right;
+            .container-secundario {
+                display: flex;
+                justify-content: space-around;
             }
 
-            .curso{
-                float: left;
-            }
+            img {
 
-            div > img {
-                max-width: 600px;
-                width: 33%;
+                width: 100%;
                 height: auto;
                 aspect-ratio: 16/9;
-                object-fit: cover;         
+                object-fit: cover;
+
             }
 
-            div > p {
-                font-weight: bold;
-                text-align: center;
-                width: 33%;
-                display: inline-block;
+            .container-footer {
+                padding: 20px;
+                background-color: grey;
+                display: flex;
+                justify-content: space-between;
             }
         </style>
     </head>
     <body>
-        <div class="clearfix">
-            <img src="https://picsum.photos/id/684/600/400" alt="">
-            <img src="https://picsum.photos/id/1020/600/400" alt="">
-            <img src="https://picsum.photos/id/1076/600/400" alt="">
-        </div>
+            <div class="container-main">
+                <div class="container-principal">
+                    <div class="container-secundario">
+                        <img src="https://picsum.photos/id/684/600/400" alt="">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
 
-        <div class="clearfix">
-            <p>Lorem ipsum dolor sit amet</p>
-            <p>Facilis tempora ab quibusdam</p>
-            <p>Autem saepe accusantium</p>
-        </div>
+                    <div class="container-secundario">
+                        <img src="https://picsum.photos/id/684/600/400" alt="">
+                        <p>Facilis tempora ab quibusdam</p>
+                    </div>
 
-        <footer class="clearfix">
-            <h4 class="curso"> 2º DAW. Diseño de Interfaces Web </h4>
-            <h4 class="nombre"> Isaac Expósito </h4>
-        </footer>
+                    <div class="container-secundario">
+                        <img src="https://picsum.photos/id/684/600/400" alt="">
+                        <p>Autem saepe accusantium</p>
+                    </div>
+                </div>
+
+                <footer class="container-footer">
+                    <h4 class="curso"> 2º DAW. Diseño de Interfaces Web </h4>
+                    <h4 class="nombre"> Isaac Expósito </h4>
+                </footer>
+        </div>
     </body>
 </html>
