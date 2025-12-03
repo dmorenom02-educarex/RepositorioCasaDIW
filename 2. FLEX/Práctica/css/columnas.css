@@ -3,7 +3,15 @@
   flex-wrap: wrap;
 }
 
-
+.col {
+  padding: 15px;
+  flex: 1 1 0;
+  /* Atajo para:
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  */
+}
 
 [class*="col-"] {
   width: 100%;
@@ -17,13 +25,6 @@
 }
 
 @media (min-width: 600px) {
-  /* Para centrar la última card hacemos que no flote y lo centramos */
-  .card-last {
-    clear: both;
-    float: none;
-    margin: 0 auto;
-  }
-
   .col-sm-1 {
     width: 8.33%;
   }
@@ -63,11 +64,6 @@
 }
 
 @media (min-width: 750px) {
-  .card-last {
-    clear: none;
-    float: left;
-  }
-
   .col-md-1 {
     width: 8.33%;
   }

@@ -64,7 +64,7 @@ h3 {
 }
 
 /* Utilidades de float */
-.f-left {
+/*.f-left {
   float: left;
 }
 
@@ -76,7 +76,7 @@ h3 {
   content: "";
   clear: both;
   display: table;
-}
+} /*
 
 /* Utilidades de aspecto */
 .aspect-ratio-16-9 {
@@ -621,3 +621,43 @@ footer {
 .d-none {
   display: none !important;
 }
+
+
+
+/*  MIS COSAS */
+  /* HEADER */
+  header > nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .l-izquierda {
+    margin-right: auto;
+    order: 1;
+  }
+
+  .l-derecha1 {
+    order: 2;
+  }
+
+  .l-derecha2 {
+    order: 3;
+  }
+
+  /* MAIN */
+    /* SECCIÓN LIBROS DESTACADOS */
+
+    /* SECCIÓN GÉNEROS POPULARES */
+    .genpopular {
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* SECCIÓN SERVICIOS */
+
+  /* FOOTER */
+  footer > div{
+    display: flex;
+    justify-content: space-between;
+  }
+
