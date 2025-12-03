@@ -1,0 +1,14 @@
+/* Estilos generales */
+:root {
+    --primary-color: #2c5530;
+    --secondary-color: #ff6b35;
+
+/* EJEMPLO DE USO
+color: var(--text-color); */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
