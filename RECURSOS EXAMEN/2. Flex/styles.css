@@ -12,3 +12,24 @@ color: var(--text-color); */
     margin: 0;
     padding: 0;
 }
+
+img {
+    width: 100%;
+    /* max-width: 400px; POR SI ACASO */  
+    height: auto;
+    aspect-ratio: 16/9;  /* Imagen 1920×1080px → aspect-ratio: 16/9 (1920÷1080 ≈ 1.78 = 16/9) */
+    object-fit: cover;
+    /* aspect-ratio: 4/3;  Imagen 800×600px → aspect-ratio: 4/3 (800÷600 ≈ 1.33 = 4/3) */
+    /* aspect-ratio: 3/2;  Imagen 600×400px → aspect-ratio: 3/2 (600÷400 = 1.5 = 3/2) */
+    /* aspect-ratio: 2/1; */
+
+}
+
+
+/* EN EL HTML
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+EN EL CSS 
+family font: roboto... */
