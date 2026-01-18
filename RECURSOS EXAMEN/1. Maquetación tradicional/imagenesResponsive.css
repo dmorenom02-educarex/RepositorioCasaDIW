@@ -8,4 +8,60 @@ img {
     /* aspect-ratio: 3/2;  Imagen 600×400px → aspect-ratio: 3/2 (600÷400 = 1.5 = 3/2) */
     /* aspect-ratio: 2/1; */
 
+/* 
+    .img-container {
+    width: 100%;
+    position: relative;
+    }
+
+    .img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 1/1;
+    object-fit: cover;  Evita distorsión manteniendo la proporción 
+    }
+*/
+
+
+
 }
+
+
+
+/*  GOOGLE FONTS
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>  
+    
+    -- USO
+    h1 {
+    font-family: "Eagle Lake";
+    font-weight: 400;
+    font-style: normal;
+    }
+
+*/
+
+/*
+    :root {
+    --header-bg-color: #2c3e50;
+    --font-family-body: Arial, "sans-serif";
+    }
+
+    body {
+    font-family: var(--font-family-body);
+    line-height: 1.6;
+    }
+*/
+
+/*  SPANS
+    <nav class="f-right">
+        <a href="proyectos.html" class="nav-link">Proyectos</a>
+        <a href="servicios.html" class="nav-link">Servicios</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+    </nav>
+*/
+/*  vertical-align: middle;  */
